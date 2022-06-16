@@ -1,0 +1,271 @@
+*{
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+	font-family: sans-serif;
+		
+	
+}
+
+header{
+	width: 100%;
+	 box-shadow: 0 2px 15px rgba(0,0,0,.4);
+	 position: fixed;
+	 background-color: white;
+}
+.nav1{
+	 width: 90%; 
+	 margin:0 auto;	
+}
+.nav2-1{
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	display: block;float: left; 
+	padding: 3vh 0;
+
+}
+.nav2-2{
+	width: 49%;
+	float:right;
+	padding: 4vh 0;
+}
+
+.nav3{
+	width: 70%;
+	margin: 0 auto;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+.nav1 img{
+	width: 20vh;
+}
+.ul ul li{
+	display: inline-block;
+	padding: 0 3vh;	
+}
+.ul ul li a{
+	color:#1b2e35;
+}
+.ul ul li a::after{
+	display: block;
+    width: 0;
+    height: 4px;
+    content: '';
+    transition: width .3s;
+    background:#1b2e35;    
+}
+.ul ul li a:hover::after{
+	background:#1b2e35;; 
+	font-size: 120%;
+	width: 100%;
+    transition: width .3s;
+}
+
+.home{
+	width: 90%;
+	padding-top: 20vh;
+	margin: 0 auto;
+	display: flex;
+
+}
+.home1{
+	width: 43%;
+	justify-content:center;
+	align-items: center;
+	display: flex;
+	float:left;
+
+}
+.home1-1{
+	margin:30vh 0;
+
+}
+.home2{
+	width: 55%;
+	float: right;
+
+}
+
+.biodata{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 15vh;
+	border-radius: 20px;
+	padding: 9vh;
+	background-color: #F4F4F4;
+	display: flex;
+	margin-bottom: 15vh;
+}
+
+
+article{
+	width: 80%;
+	float:right;
+	padding: 2vh;
+	background-color: white;
+	box-shadow: 0px 9px 15px #ff4f5a;
+	color:#385962;
+	
+}
+
+
+.border1{
+	width: 60%;
+	float:left;
+}
+.desc{
+	margin:auto 0;
+}
+
+aside{
+	width: 40%;
+	justify-content:center;
+	align-items: center;
+	display: flex;
+}
+
+.foto{
+	width: 40%;
+	margin: 0 auto;
+}
+.foto img{
+	width: 100%
+
+}
+
+.space{
+	width: 90%;
+	margin:0 auto; 
+	height: 3px;
+	background-color:#e0e2e1;
+}
+
+.hobi{
+	width: 90%; 
+	margin: 0 auto;
+	display: flex; 
+	margin-top: 15vh; 
+	margin-bottom: 20vh;
+}
+.hobi1-1{
+	width: 48%; 
+	float: left;
+}
+.hobi2-1{
+	width: 45%;
+	float: left;
+	justify-content:center;
+	align-items: center;
+	display: flex;
+}
+.voly{
+	width: 80%; 
+	margin: auto
+}
+.voly img{
+	width: 19vh;
+	border-radius: 6vh;
+}
+
+.hobi2-2{
+	width: 45%;
+	float: right;
+	justify-content:center;
+	align-items: center;
+	display: flex;
+}
+.ps{
+	width: 80%; 
+	margin: auto;
+}
+.ps img{
+	width: 20vh;
+	border-radius: 3vh;
+}
+.hobi1-2{
+	width: 48%;
+	float: right;
+}
+.hobi2-3{
+	width: 45%;
+	float: left;
+	justify-content:center;
+	align-items: center;
+	display: flex;
+}
+.musik{
+	width: 80%; 
+	margin: auto;
+}
+.musik img{
+	width: 18vh;
+	padding-top:2vh;
+	border-radius: 3vh;
+}
+
+.hobi2-4{
+	width: 45%;
+	float: right;
+	justify-content:center;
+	align-items: center;
+	display: flex;
+}
+.soccer{
+	width: 80%; 
+	margin: auto;
+}
+.soccer img{
+	width: 20vh;
+	border-radius: 3vh;
+}
+.p{
+	width: 90%;
+	margin:0 auto;
+	border:2px solid;
+	height: 100%;
+	padding: 2vh;
+	border-radius: 6px;	
+	box-shadow: 0px 9px 15px #385962;
+}
+
+.contact{
+	width: 90%;
+	margin: 0 auto;
+	justify-content:center;
+	align-items: center;
+	display: flex;
+	background-color:#ececec;
+	border-radius: 3vh;
+}
+.contact1{
+	padding: 2vh 0;
+}
+.contact ul li{
+	display: inline-block;
+	color:#1b2e35;
+	font-size: 80%;
+}
+.contact1 ul li{
+	padding: 0 2vh;
+}
+
+.fab,.fas{
+	font-size: 3vh;
+}
+footer{
+	width: 100%;
+	height: 13vh;
+	background-color:#1b2e35; 
+	text-align: center;
+	margin-top: 5vh;
+}
+footer p{
+	padding: 5vh 0;
+	color:white;
+}
+span{
+	color:#ff4f5a;
+}

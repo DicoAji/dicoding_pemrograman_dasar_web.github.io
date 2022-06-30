@@ -2,7 +2,7 @@
 
 ![Frame 1 (2)](https://user-images.githubusercontent.com/86448257/176615876-421f3d59-ce62-43aa-9000-e6352954ee5c.png)
 
-  ✅ Terdapat elemen ##Header, Footer, Main, Article, dan Aside.
+  ✅ Terdapat elemen **Header**, Footer, Main, Article, dan Aside.
   
   ✅ Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website). Sebagai contoh: Header berisi judul dan navigation.
   
